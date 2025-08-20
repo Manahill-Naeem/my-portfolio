@@ -1,0 +1,86 @@
+import React from 'react';
+
+const skillsCategories = [
+  {
+    category: 'IT & Programming',
+    icon: 'fas fa-laptop-code',
+    skills: [
+      { name: 'HTML5', icon: 'fab fa-html5' },
+      { name: 'CSS3', icon: 'fab fa-css3-alt' },
+      { name: 'JavaScript', icon: 'fab fa-js' },
+      { name: 'TypeScript', icon: 'fas fa-code' },
+      { name: 'Next.js', icon: 'fas fa-rocket' },
+      { name: 'Python', icon: 'fab fa-python' },
+      { name: 'Artificial Intelligence', icon: 'fas fa-robot' },
+    ],
+  },
+  {
+    category: 'Medical & Healthcare',
+    icon: 'fas fa-heartbeat',
+    skills: [
+      { name: 'Medical Sonography', icon: 'fas fa-x-ray' },
+      { name: 'Radiology & Ultrasound', icon: 'fas fa-notes-medical' },
+      { name: 'ECG', icon: 'fas fa-monitor-heart-rate' },
+      { name: 'Patient Care', icon: 'fas fa-user-injured' },
+    ],
+  },
+  {
+    category: 'Digital & Marketing',
+    icon: 'fas fa-bullhorn',
+    skills: [
+      { name: 'Web Development', icon: 'fas fa-laptop-code' },
+      { name: 'E-commerce', icon: 'fas fa-shopping-cart' },
+      { name: 'Digital Marketing', icon: 'fas fa-chart-line' },
+    ],
+  },
+  {
+    category: 'Teaching & Communication',
+    icon: 'fas fa-chalkboard-teacher',
+    skills: [
+      { name: 'IELTS/PTE', icon: 'fas fa-book-reader' },
+      { name: 'English Grammar', icon: 'fas fa-language' },
+      { name: 'Public Speaking', icon: 'fas fa-microphone' },
+    ],
+  },
+];
+
+const Skills = () => {
+  return (
+    <section id="skills" className="py-20 md:py-24">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-12">
+          Skills
+        </h2>
+        
+        {/* Skills Categories Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {skillsCategories.map((category, index) => (
+            <div
+              key={index}
+              className="bg-gray-800 p-6 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
+            >
+              <div className="flex items-center mb-4">
+                <i className={`${category.icon} text-3xl text-blue-400 mr-4`}></i>
+                <h3 className="text-xl font-semibold text-white">
+                  {category.category}
+                </h3>
+              </div>
+              
+              {/* Individual Skills List */}
+              <ul className="space-y-3">
+                {category.skills.map((skill, skillIndex) => (
+                  <li key={skillIndex} className="flex items-center text-gray-300">
+                    <i className={`${skill.icon} text-blue-300 mr-3`}></i>
+                    <span>{skill.name}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Skills;
