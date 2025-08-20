@@ -9,7 +9,7 @@ const Contact = () => {
           Get in Touch
         </h2>
         <p className="text-center text-gray-400 mb-12">
-          If you have a project or a job opportunity, feel free to contact me. I'm always open to new connections.
+          If you have a project or a job opportunity, feel free to contact me. I&apos;m always open to new connections.
         </p>
 
         <form

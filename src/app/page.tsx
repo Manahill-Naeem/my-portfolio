@@ -6,8 +6,6 @@ import Hero from "@/sections/Hero";
 import Skills from "@/sections/Skills";
 import Projects from "@/sections/Projects";
 import Contact from "@/sections/Contact";
-import Image from "next/image";
-import Link from "next/link";
 
 export default function RootLayout(){
   return (

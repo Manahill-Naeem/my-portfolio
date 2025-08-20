@@ -1,6 +1,5 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
-import Link from 'next/link';
 import Image from 'next/image';
 
 // Accept params from Next.js dynamic route
@@ -12,13 +11,23 @@ interface PageProps {
 // Types for experience details
 type InstituteImage = { src: string; alt: string };
 type InstituteDetails = { description: string; images: InstituteImage[] };
+interface StoryText {
+    type: 'text';
+    content: string;
+}
+interface StoryImage {
+    type: 'image';
+    src: string;
+    alt: string;
+}
+type StoryItem = StoryText | StoryImage;
 type ExperienceDetail = {
-    institute: string;
-    role: string;
-    metaTitle: string;
-    metaDescription: string;
-    fullStory: any[];
-    instituteDetails: InstituteDetails;
+        institute: string;
+        role: string;
+        metaTitle: string;
+        metaDescription: string;
+        fullStory: StoryItem[];
+        instituteDetails: InstituteDetails;
 };
 
 const fullExperienceDetails: { [key: string]: ExperienceDetail } = {

@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function (){
+const Navbar = () => {
     return(
         <nav className="fixed top-0 left-0 w-full z-10 backdrop-blur-sm shadow-md">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -19,3 +19,6 @@ export default function (){
         </nav>
     )
 }
+
+Navbar.displayName = "Navbar";
+export default Navbar;

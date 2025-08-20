@@ -33,7 +33,7 @@ export default function Education(){
                         </div>
                         <span className="text-sm text-gray-400">March 2023 - May 2023</span>
                     </div>
-                    <h3 className="text-xl font-bold mb-2 text-blue-400">Sir SM Imran's Institute</h3>
+                    <h3 className="text-xl font-bold mb-2 text-blue-400">Sir SM Imran&apos;s Institute</h3>
                     <p className="text-gray-400 mb-4">Advanced English language certified course</p>
                 </div>
                 <div className="education-card bg-gray-800 rounded-2xl p-6 hover:shadow-2xl transition-shadow flex flex-col h-full">
