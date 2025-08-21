@@ -12,7 +12,7 @@ const Contact = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-900 dark:text-white mb-4 drop-shadow-lg">
           Get in Touch
         </h2>
-        <p className="text-center text-blue-900 dark:text-gray-300 mb-12">
+        <p className="text-center text-blue-900 dark:text-gray-200 mb-12">
           If you have a project or a job opportunity, feel free to contact me. I&apos;m always open to new connections.
         </p>
 
@@ -43,10 +43,10 @@ const Contact = () => {
             }
             setLoading(false);
           }}
-          className="bg-gray-800 p-8 rounded-lg shadow-lg mb-12"
+          className="bg-gradient-to-br from-[#232946] to-[#181f2a] p-8 rounded-lg shadow-lg mb-12"
         >
           <div className="mb-6">
-            <label htmlFor="name" className="block text-gray-300 mb-2">
+            <label htmlFor="name" className="block text-gray-200 mb-2">
               Name
             </label>
             <input
@@ -59,7 +59,7 @@ const Contact = () => {
           </div>
           
           <div className="mb-6">
-            <label htmlFor="email" className="block text-gray-300 mb-2">
+            <label htmlFor="email" className="block text-gray-200 mb-2">
               Email
             </label>
             <input
@@ -72,7 +72,7 @@ const Contact = () => {
           </div>
           
           <div className="mb-6">
-            <label htmlFor="message" className="block text-gray-300 mb-2">
+            <label htmlFor="message" className="block text-gray-200 mb-2">
               Message
             </label>
             <textarea

@@ -9,7 +9,7 @@ export default function Education() {
                 <h2 className="text-4xl font-bold text-center mb-16 text-[#232946] dark:text-white drop-shadow-lg">
                     Education
                 </h2>
-                <div className="grid md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Card 1 */}
                     <div className="education-card bg-gradient-to-br from-[#f0fdfa] to-[#e0e7ff] dark:from-[#232946] dark:to-[#181f2a] border-l-4 border-[#10b981] dark:border-[#2563eb] rounded-2xl p-7 shadow-xl hover:shadow-2xl transition-shadow flex flex-col h-full">
                         <div className="flex items-center justify-between mb-4">
@@ -19,7 +19,7 @@ export default function Education() {
                             <span className="text-sm text-gray-500 dark:text-gray-400">2019 - 2021</span>
                         </div>
                         <h3 className="text-xl font-bold mb-2 text-[#2563eb] dark:text-blue-400">Govt. Degree College For Women block M, North Nazimabad, Karachi</h3>
-                        <p className="text-gray-700 dark:text-gray-300 mb-4">Intermediate in medical field</p>
+                        <p className="text-gray-700 dark:text-gray-200 mb-4">Intermediate in medical field</p>
                     </div>
                     {/* Card 2 */}
                     <div className="education-card bg-gradient-to-br from-[#f0fdfa] to-[#e0e7ff] dark:from-[#232946] dark:to-[#181f2a] border-l-4 border-[#2563eb] dark:border-[#10b981] rounded-2xl p-7 shadow-xl hover:shadow-2xl transition-shadow flex flex-col h-full">

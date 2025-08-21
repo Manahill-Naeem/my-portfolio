@@ -48,12 +48,12 @@ const Skills = () => {
   return (
   <section id="skills" className="py-20 md:py-24 bg-gradient-to-br from-[#f0fdfa] via-[#f1f5f9] to-[#d1fae5] dark:from-[#232946] dark:via-[#181f2a] dark:to-[#232946]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-12">
           Skills
         </h2>
         
         {/* Skills Categories Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillsCategories.map((category, index) => (
             <div
               key={index}
@@ -68,7 +68,7 @@ const Skills = () => {
               {/* Individual Skills List */}
               <ul className="space-y-3">
                 {category.skills.map((skill, skillIndex) => (
-                  <li key={skillIndex} className="flex items-center text-gray-700 dark:text-gray-300">
+                  <li key={skillIndex} className="flex items-center text-gray-700 dark:text-gray-200">
                     <i className={`${skill.icon} text-[#2563eb] dark:text-blue-300 mr-3`}></i>
                     <span>{skill.name}</span>
                   </li>

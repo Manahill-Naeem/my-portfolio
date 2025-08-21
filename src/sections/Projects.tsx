@@ -27,11 +27,11 @@ const Projects = () => {
   return (
   <section id="projects" className="py-20 md:py-24 bg-gradient-to-br from-[#ede9fe] via-[#e0e7ff] to-[#f0fdfa] dark:from-[#232946] dark:via-[#181f2a] dark:to-[#232946]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-black dark:text-white mb-12">
           Projects
         </h2>
         
-        <div className="grid md:grid-cols-2 gap-8">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, idx) => (
             <div
               key={project.id}
@@ -49,7 +49,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold text-[#2563eb] dark:text-blue-400 mb-2">
                 {project.title}
               </h3>
-              <p className="text-gray-700 dark:text-gray-300 mb-4">
+              <p className="text-gray-700 dark:text-gray-200 mb-4">
                 {project.description}
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
@@ -62,12 +62,12 @@ const Projects = () => {
                   </span>
                 ))}
               </div>
-              <div className="flex space-x-4">
+              <div className="flex flex-col sm:flex-row gap-4 sm:space-x-4">
                 <Link
                   href={project.liveLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-[#10b981] hover:bg-[#2563eb] !text-white font-bold py-2 px-4 rounded-md transition-colors duration-300"
+                  className="bg-[#10b981] hover:bg-[#2563eb] !text-white font-bold py-2 px-4 rounded-md transition-colors duration-300 text-center"
                 >
                   Live Demo
                 </Link>
@@ -75,7 +75,7 @@ const Projects = () => {
                   href={project.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-[#2563eb] hover:bg-[#10b981] !text-white font-bold py-2 px-4 rounded-md transition-colors duration-300"
+                  className="bg-[#2563eb] hover:bg-[#10b981] !text-white font-bold py-2 px-4 rounded-md transition-colors duration-300 text-center"
                 >
                   GitHub
                 </Link>

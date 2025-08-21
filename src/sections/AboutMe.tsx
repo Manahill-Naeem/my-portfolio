@@ -10,7 +10,7 @@ export default function About() {
         </h2>
 
         {/* Two-column container */}
-        <div className="flex flex-col md:flex-row gap-8 md:gap-12">
+  <div className="flex flex-col md:flex-row gap-8 md:gap-12">
           {/* Left Column*/}
           <div className="md:w-2/3">
             <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
@@ -36,8 +36,8 @@ export default function About() {
           </div>
 
           {/* Right Column*/}
-          <div className="md:w-1/3 p-6 bg-gray-800 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-4" style={{ color: '#fff' }}>
+          <div className="md:w-1/3 p-6 bg-gradient-to-br from-[#232946] to-[#181f2a] rounded-lg shadow-lg">
+            <h3 className="text-xl font-semibold mb-4 text-white">
               🔑 Key Highlights
             </h3>
             <ul className="text-gray-300 space-y-3 list-none">
