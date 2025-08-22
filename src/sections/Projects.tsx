@@ -23,21 +23,21 @@ const projects = [
   },
   {
     id: 3,
-    title: 'E-commerce store Website',
-    description: 'A fully responsive service website designed to showcase a professional portfolio and service offerings. Built with Next.js and Tailwind CSS, it features dynamic content, smooth animations, and a modern user interface to provide a seamless user experience.',
-    techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
-    imageSrc: '/images/projects/cw_store_website.png',
-    liveLink: 'https://craftedwhispers.vercel.app/',
-    githubLink: 'https://github.com/Manahill-Naeem/craft_website'
-  },
-  {
-    id: 4,
-    title: 'E-commerce store Website',
-    description: 'A fully responsive service website designed to showcase a professional portfolio and service offerings. Built with Next.js and Tailwind CSS, it features dynamic content, smooth animations, and a modern user interface to provide a seamless user experience.',
+    title: 'Full-Stack E-commerce Store',
+    description: 'A modern and intuitive full-stack e-commerce platform for mobile phones and accessories. The website features a sleek, minimalist frontend interface, built to provide a seamless and engaging shopping experience. It connects to a robust backend system that handles dynamic product data, search functionality, and a user-friendly shopping cart, ensuring optimal performance and responsiveness on any device. The platform is currently operational for users in two countries.',
     techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
     imageSrc: '/images/projects/mobile_store_website.png',
     liveLink: 'https://smartoria-mobile-web.vercel.app/',
     githubLink: 'https://github.com/Manahill-Naeem/smartoria-mobile-web'
+  },
+  {
+    id: 4,
+    title: 'E-commerce store Website',
+    description: 'A fully responsive service website built to showcase a professional portfolio and service offerings. Crafted with a modern user interface using Next.js and Tailwind CSS, it features dynamic content and smooth animations for a seamless user experience. The site is currently operational, with ongoing development focused on adding further backend functionality to enhance its capabilities.',
+    techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+    imageSrc: '/images/projects/cw_store_website.png',
+    liveLink: 'https://craftedwhispers.vercel.app/',
+    githubLink: 'https://github.com/Manahill-Naeem/craft_website'
   },
 ];
 
