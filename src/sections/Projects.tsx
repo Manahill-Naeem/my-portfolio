@@ -5,21 +5,39 @@ import Image from 'next/image';
 const projects = [
   {
     id: 1,
-    title: 'Sonocare AI Chatbot',
-    description: 'An intelligent medical assistant chatbot built with Agentic AI. The chatbot is designed to provide preliminary healthcare information, answer medical queries, and guide users on basic health concerns, making medical information more accessible.',
-    techStack: ['Agentic AI', 'Python', 'Dialogflow', 'Natural Language Processing'],
-    imageSrc: '/images/projects/chatbot_project.jpg',
-    liveLink: '#', // Add your live project URL here
-    githubLink: 'https://github.com/your-username/sonocare-chatbot', // Add your GitHub repository URL here
-  },
-  {
-    id: 2,
     title: 'Service Website',
     description: 'A fully responsive service website designed to showcase a professional portfolio and service offerings. Built with Next.js and Tailwind CSS, it features dynamic content, smooth animations, and a modern user interface to provide a seamless user experience.',
     techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
     imageSrc: './images/projects/service_website.png',
     liveLink: 'https://optivance-inspect.vercel.app/',
-    githubLink: 'https://github.com/Manahill-Naeem/smartoria-mobile-web.git'
+    githubLink: 'https://github.com/Manahill-Naeem/Optivance-Inspect'
+  },
+  {
+    id: 2,
+    title: 'Sonocare AI Chatbot',
+    description: 'An intelligent medical assistant chatbot built with Agentic AI. The chatbot is designed to provide preliminary healthcare information, answer medical queries, and guide users on basic health concerns, making medical information more accessible.',
+    techStack: ['Agentic AI', 'Python', 'Dialogflow', 'Natural Language Processing'],
+    imageSrc: '/images/projects/sonocare_chatbot_project.png',
+    liveLink: 'https://sono-care-chatbot.vercel.app/',
+    githubLink: 'https://github.com/Manahill-Naeem/SonoCare_Chatbot',
+  },
+  {
+    id: 3,
+    title: 'E-commerce store Website',
+    description: 'A fully responsive service website designed to showcase a professional portfolio and service offerings. Built with Next.js and Tailwind CSS, it features dynamic content, smooth animations, and a modern user interface to provide a seamless user experience.',
+    techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+    imageSrc: '/images/projects/cw_store_website.png',
+    liveLink: 'https://craftedwhispers.vercel.app/',
+    githubLink: 'https://github.com/Manahill-Naeem/craft_website'
+  },
+  {
+    id: 4,
+    title: 'E-commerce store Website',
+    description: 'A fully responsive service website designed to showcase a professional portfolio and service offerings. Built with Next.js and Tailwind CSS, it features dynamic content, smooth animations, and a modern user interface to provide a seamless user experience.',
+    techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+    imageSrc: '/images/projects/mobile_store_website.png',
+    liveLink: 'https://smartoria-mobile-web.vercel.app/',
+    githubLink: 'https://github.com/Manahill-Naeem/smartoria-mobile-web'
   },
 ];
 
