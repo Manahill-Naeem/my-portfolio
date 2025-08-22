@@ -27,6 +27,7 @@ export default function RootLayout({
       <head>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"></link>
       </head>
+        <meta name="google-site-verification" content="fBvZakuIc1YSdLpF0f4mFwKrcBR61rN02Qb3qdBSDko" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
