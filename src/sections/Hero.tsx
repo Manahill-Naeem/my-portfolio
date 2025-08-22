@@ -37,12 +37,12 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex gap-4">
-        <button
+{/*         <button
           className="btn-primary"
           onClick={() => setShowModal(true)}
         >
           Download CV
-        </button>
+        </button> */}
         <Link
           href="#contact"
           className="btn-primary"
