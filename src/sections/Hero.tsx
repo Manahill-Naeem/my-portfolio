@@ -32,7 +32,7 @@ export default function Hero() {
       </div>
       <div>
         <h1 className="text-4xl font-bold mb-2">I&apos;m Manahill Naeem</h1>
-        <p className="text-lg text-gray-200 py-3">
+        <p className="text-lg text-gray-400 py-3">
           A passionate Web Developer skilled in HTML, CSS, Java, TypeScript, Next.js, and Python, currently exploring Agentic AI and Chatbot Development. Alongside development, I have hands-on knowledge of E-Commerce and Digital Marketing, enabling me to build not just websites, but complete modern and scalable digital solutions. With a background in healthcare (Ultrasound & ECG), I bring precision and analytical skills into every project.
         </p>
       </div>
