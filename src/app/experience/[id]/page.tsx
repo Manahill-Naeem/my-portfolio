@@ -163,7 +163,7 @@ export default function detailpage({ params }: PageProps) {
 
             {/* New section for About the Institute */}
             {item.instituteDetails && (
-                <div className="mt-16 bg-gray-900/80 rounded-2xl shadow-xl p-8">
+                <div className="mt-16 bg-gradient-to-br from-[#e0e7ff] via-[#f0fdfa] to-[#f1f5f9] dark:from-[#232946] dark:via-[#232946] dark:to-[#232946] rounded-2xl shadow-xl p-8">
                     <h3 className="text-2xl font-bold text-white mb-6">About {item.institute}</h3>
                     <p className="text-gray-300 leading-relaxed text-lg mb-8">
                         {item.instituteDetails.description}
