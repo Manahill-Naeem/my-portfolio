@@ -71,9 +71,9 @@ export default function Experience() {
                             <p className="text-gray-700 dark:text-gray-300 mb-2">
                                 {item.shortDescription}
                             </p>
-                            <span className="inline-block text-sm font-semibold text-blue-600 dark:text-green-400 hover:underline mt-1">
+{/*                             <span className="inline-block text-sm font-semibold text-blue-600 dark:text-green-400 hover:underline mt-1">
                                 View full story of my experience
-                            </span>
+                            </span> */}
                         </Link>
                     ))}
                 </div>
